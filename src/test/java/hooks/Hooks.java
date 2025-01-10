@@ -22,7 +22,7 @@ public class Hooks {
         capabilities.setCapability("appium:automationName", "UiAutomator2");
         capabilities.setCapability("appium:deviceName", "POCO F4");
         capabilities.setCapability("appium:platformVersion", "14");
-        capabilities.setCapability("appium:udid", "944dd9d");
+        capabilities.setCapability("appium:udid", "adb-944dd9d-L80hY0._adb-tls-connect._tcp");
         capabilities.setCapability("platformName", "Android");
 
         URL url = new URL("http://192.168.10.168:4723/");
