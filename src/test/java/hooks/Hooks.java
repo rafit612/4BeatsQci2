@@ -26,7 +26,7 @@ public class Hooks {
         capabilities.setCapability("platformName", "Android");
 
         URL url = new URL("http://192.168.10.168:4723/");
-        driver = new AndroidDriver(url, capabilities);
+        driver = new AppiumDriver(url, capabilities);
         Thread.sleep(10000);
         System.out.println("App launched successfully");
     }
